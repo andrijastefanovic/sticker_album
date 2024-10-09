@@ -1,0 +1,31 @@
+.open-pack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Ensure that the animated image stays centered */
+}
+
+.stickers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.stickers img {
+  margin-inline: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.pack-image {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}

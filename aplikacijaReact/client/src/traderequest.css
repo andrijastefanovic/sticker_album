@@ -1,0 +1,64 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+ 
+
+.checkboxDetail{
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+  
+  .grid-field {
+    width: 30px; 
+    height: 30px; 
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+
+  
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+
+
+
+  
+  .legend-item .legend-color.stickers-in-album {
+    background-color: red; 
+  }
+  
+  .legend-item .legend-color.stickers-not-in-album-unstuck {
+    background-color: orange; 
+  }
+  
+  .legend-item .legend-color.stickers-not-in-album {
+    background-color: green; 
+  }
+  
+
+  

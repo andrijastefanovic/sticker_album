@@ -1,0 +1,23 @@
+.playerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerInfoRow {
+    margin: 5px;
+}
+
+.playerLabel {
+    font-weight: bold;
+}
+
+.playerValue {
+    margin-left: 5px;
+}

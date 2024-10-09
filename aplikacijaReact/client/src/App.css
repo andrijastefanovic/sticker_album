@@ -1,0 +1,41 @@
+.sidebar {
+  background-color: blue; 
+  color: white;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.content {
+  margin-left: 5%; 
+  padding: 2%; 
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10%;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  color: #0056b3; 
+}
+
+
+
+
+
+
